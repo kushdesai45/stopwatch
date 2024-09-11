@@ -36,11 +36,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>StopWatch</h1>
+      <h1>Stopwatch</h1>
       <p>Time: {formatTime(timer)}</p>
       <div>
         <button onClick={setTime}>
-          { isRunning ? 'start' : 'stop'}
+          { isRunning ? 'Start' : 'Stop'}
         </button>
         <button onClick={handleReset}>
           Reset
